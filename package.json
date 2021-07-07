@@ -1,0 +1,39 @@
+{
+  "name": "react-avancado-api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Api curso React Avançado",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.6.5",
+    "strapi-admin": "3.6.5",
+    "strapi-utils": "3.6.5",
+    "strapi-plugin-content-type-builder": "3.6.5",
+    "strapi-plugin-content-manager": "3.6.5",
+    "strapi-plugin-users-permissions": "3.6.5",
+    "strapi-plugin-email": "3.6.5",
+    "strapi-plugin-upload": "3.6.5",
+    "strapi-plugin-i18n": "3.6.5",
+    "strapi-connector-bookshelf": "3.6.5",
+    "knex": "0.21.18",
+    "pg": "8.5.1"
+  },
+  "author": {
+    "name": "Vinícius Lopes"
+  },
+  "strapi": {
+    "uuid": "6c4ca01e-2eb2-46a8-aa61-f55075de3a45",
+    "template": "https://github.com/strapi/strapi-template-ecommerce"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT"
+}
